@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
+  newA = []; 
+  groceries.values.each do |value|
+    value.each {|x| newA << x} 
+  end 
   
-
+newA
 end
